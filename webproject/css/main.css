@@ -1,0 +1,28 @@
+.bg-countdown {
+    background-color: #e9ecef;
+}
+
+.title-countdown {
+    color: black;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.subtitle-countdown {
+    color: black;
+    text-align: center;
+}
+
+.container-countdown {
+    padding-top: 7rem;
+}
+
+.hr-countdown {
+    background-color: #D6D6D6;
+}
+
+.time-countdown {
+    font-size:8rem;
+    font-weight: bold;
+    text-align: center;
+}
