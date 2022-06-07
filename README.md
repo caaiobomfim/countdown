@@ -15,7 +15,7 @@ Criação do arquivo **Dockerfile** com a intrução para baixar a imagem oficia
 
 ```dockerfile
 FROM httpd:latest
-COPY ./webproject/ /usr/local/apache2/htdocs/
+COPY ./src/ /usr/local/apache2/htdocs/
 ```
 
 ## HTML
@@ -152,4 +152,4 @@ $ docker run -d --name docker-httpd-countdown-webpage -p 80:80 docker-countdown
 
 Acessando a aplicação web em http://localhost/.
 
-![webproject](./webproject/img/project-exec.JPG "webproject")
+![webproject](./src/img/project-exec.JPG "webproject")
